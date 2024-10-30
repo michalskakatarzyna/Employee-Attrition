@@ -26,7 +26,7 @@ CREATE TABLE employees (
 DESC employees;
 
 -- import data from a .csv file into the table (only essential columns included for analysis)
-LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/HR.csv'
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/employees.csv'
 INTO TABLE employees
 FIELDS TERMINATED BY ',' ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
